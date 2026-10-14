@@ -1,0 +1,21 @@
+# Frontend dependencies and build files
+human-api-frontend/node_modules/
+human-api-frontend/dist/
+
+# Backend build files
+human-api-backend/target/
+
+# Local database files
+human-api-backend/data/*.mv.db
+human-api-backend/data/*.trace.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
